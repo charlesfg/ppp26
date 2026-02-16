@@ -21,7 +21,6 @@ Este repositório está organizado da seguinte forma:
 🔗 **Slides das Aulas:**  
 Acesse as apresentações utilizadas durante as aulas na [`/slides`](slides.md).  
 
-
 🔗 **Lista de Exercícios:**  
 Pratique sua programação resolvendo os exercícios propostos em [`/exercicios`](./exercicios).  
 
@@ -34,6 +33,7 @@ Confira os códigos demonstrados em aulas e seus comentários explicativos em [`
 - [cppreference.com - C Language Reference](https://en.cppreference.com/w/c)  
 - [Plataforma para aprendizado de C  - Exercism](https://exercism.org/tracks/c/exercises)  
 - [Referência Rápida para funções](https://devdocs.io/c/)
+- [Visualizador de Código](https://pythontutor.com/c.html#mode=edit)
 
 
 ---
