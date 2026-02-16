@@ -43,8 +43,8 @@ Confira os códigos demonstrados em aulas e seus comentários explicativos em [`
 Na disciplina iremos utilizar os seguinte ambiente de programação C:
 
 🛠 **Compilador:**  
-- GCC: `gcc` (Linux/macOS/Wsl) | [MinGW-w64](https://www.mingw-w64.org/) (Windows)  
-- Clang: [LLVM Clang](https://clang.llvm.org/)  
+- GCC: `gcc` (Linux/macOS/Wsl)  
+- Clang: (macOS - ARM)[LLVM Clang](https://clang.llvm.org/)  
 
 🖥 **IDEs e Editores:**  
 - [VS Code](https://code.visualstudio.com/) + extensão C/C++   
