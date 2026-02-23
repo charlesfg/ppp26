@@ -52,6 +52,9 @@ Na disciplina iremos utilizar os seguinte ambiente de programação C:
 🛠 **Utilizando o Makefile para automatizar a compilação:**  
 - [Introdução ao Makefile](introMake.md)
 
+🛠 **Utilizando o Depurador do VsCode :**  
+- [Introdução ao depurador do VSCode](debug.md)
+
 ---
 
 📝 Bons estudos e boas práticas de programação! 🚀  
