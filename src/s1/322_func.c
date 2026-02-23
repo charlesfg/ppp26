@@ -42,4 +42,5 @@ int main() {
     }
 
     printf("O o MDC entre '%d' e '%d' é %d\n", n1, n2, v_mdc);
+    return 0;
 }
