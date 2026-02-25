@@ -5,14 +5,11 @@
 #define MAX_LINE 10
 #define MAX_COLS 10
 
-void print_matrix_of_point(int** m) {
-}
-
-void print_matrix_of_int(int m[MAX_COLS][MAX_LINE]) {
+void print_matrix_of_int(int m[MAX_LINE][MAX_COLS]) {
     int i, j;
 
-    for (i = 0; i < MAX_COLS; i++) {
-        for (j = 0; j < MAX_LINE; j++) {
+    for (i = 0; i < MAX_LINE; i++) {
+        for (j = 0; j < MAX_COLS; j++) {
             printf("%4d ", m[i][j]);
         }
         printf("\n");
@@ -26,8 +23,8 @@ int main() {
 
     int i, j;
 
-    for (i = 0; i < MAX_COLS; i++) {
-        for (j = 0; j < MAX_LINE; j++) {
+    for (i = 0; i < MAX_LINE; i++) {
+        for (j = 0; j < MAX_COLS; j++) {
             test[i][j] = rand() % 1000;
         }
     }
