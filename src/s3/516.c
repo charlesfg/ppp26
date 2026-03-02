@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * 5.1.6.c 
+ * Crie uma função que, 
+ * dada uma tabela bidimensional de inteiros, 
+ * a visualize no ecrã.
+ */
+
 #define MAX_LINE 10
 #define MAX_COLS 10
 
