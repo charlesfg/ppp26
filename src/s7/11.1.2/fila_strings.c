@@ -1,7 +1,8 @@
-#include "fila.h"
+#include "fila_strings.h"
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <strings.h>
 
 void create(struct queue* p) {
     p->inicio = NULL;
@@ -21,10 +22,10 @@ void clean(struct queue* p) {
     p->fim = NULL;
 }
 
-int insert(struct queue* p, double e) {
+int insert(struct queue* p, char* e) {
     struct queue_node* pnew = malloc(sizeof(struct queue_node));
     if (pnew != NULL) {
-        pnew->e = e;
+        strcpy(pnew->str, e);
         pnew->prox = NULL;
         if (empty(p))
             p->inicio = pnew;
@@ -35,10 +36,11 @@ int insert(struct queue* p, double e) {
     return pnew != NULL;
 }
 
-double delete(struct queue* p) {
+char* delete(struct queue* p) {
     if (p->inicio == NULL)
-        return -1;
-    double reply = p->inicio->e;
+        return EMPTY_QUEUE_ERR;
+    char* reply;
+    strcpy(reply, p->inicio->str);
     struct queue_node* tmp = p->inicio;
     p->inicio = p->inicio->prox;
     if (empty(p)) p->fim = NULL;
@@ -49,7 +51,7 @@ double delete(struct queue* p) {
 void print_queue(struct queue* p) {
     struct queue_node* q = p->inicio;
     while (q != NULL) {
-        printf(".3%f", q->e);
+        printf("%s\n", q->str);
         q = q->prox;
     }
 }

@@ -48,9 +48,15 @@ int maior_dos_ultios_k(int* v, int size, int k) {
     }
     return maior;
 }
-
+void x(int m, int matriz[m][]) {
+    int matriz = malloc(N * N * sizeof(int))
+     matriz = malloc(n* sizeof(int*))
+     for(in)
+     matriz = malloc(n* sizeof(int*))
+}
 int main() {
     srand(time(NULL));
+
     int n, k;
     printf("Insira um número para o tamanho do vetor: ");
     scanf("%d", &n);
