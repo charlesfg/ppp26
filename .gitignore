@@ -104,3 +104,15 @@ Desktop.ini
 *.pytest_cache/
 *.zip
 *.rar
+src/sorteia
+
+![0-9]*.c
+[0-9]*
+src/tmp
+src/s3
+src/Filas1
+!src/Listas/*.c
+src/Listas/teste_simples
+src/Listas/teste_cabeca
+src/Listas/teste_descritor
+slides/~$PPP_cfg_s2a1.pptx
