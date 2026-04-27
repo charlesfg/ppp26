@@ -10,7 +10,7 @@ struct list_node {
 
 // Cria a lista com um nó sentinela
 struct list_node* create(void) {
-    struct list_node* head = (struct list_node*)malloc(sizeof(struct list_node));
+        struct list_node* head = (struct list_node*)malloc(sizeof(struct list_node));
     if (head == NULL) {
         printf("Erro de alocação de memória.\n");
         exit(1);
