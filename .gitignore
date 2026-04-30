@@ -106,10 +106,8 @@ Desktop.ini
 *.rar
 src/sorteia
 
-![0-9]*.c
-[0-9]*
+!^[0-9]*.c
 src/tmp
-src/s3
 src/Filas1
 !src/Listas/*.c
 src/Listas/teste_simples
