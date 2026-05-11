@@ -1,0 +1,47 @@
+direction: right
+
+User: {
+  shape: person
+}
+
+UI: {
+  label: "UI\n(ui.c/.h)"
+  shape: hexagon
+}
+
+App: {
+  label: "App Controller\n(app.c/.h)"
+  shape: rectangle
+}
+
+DS: {
+  label: "Estruturas\n de Dados"
+  label.near:   outside-top-center
+
+  AlunoList: {
+    label: "aluno.c/.h"
+    height: 30
+    width: 150
+  }
+  DespesaList: {
+    label: "despesa.c/.h"
+    height: 30
+    width: 150
+  }
+  Data: {
+    label: "data.c/.h"
+    height: 30
+    width: 150
+  }
+  height: 90
+}
+
+DB: {
+  label: "Persistência\n(db.c / db.h)"
+  shape: cylinder
+}
+
+User <-> UI
+App <-> DS
+UI <-> App
+App <-> DB
